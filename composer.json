@@ -1,0 +1,19 @@
+{
+    "name": "obray/server-manager",
+    "description": "Manages multiple instances of obray/socket-server or desendants thereof as seperate processes.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nate Obray",
+            "email": "nathanobray@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+		"psr-4": {
+			"obray\\": "src"
+		}
+	}
+}
